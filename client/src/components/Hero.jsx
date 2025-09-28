@@ -49,7 +49,7 @@ const Hero = () => {
 
           {/* Right side  */}
           <div className="relative">
-            <div className="bg-white rounded-2xl shadow-2xl p-8 ">
+            <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-300">
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
@@ -100,6 +100,9 @@ const Hero = () => {
                 </div>
               </div>
             </div>
+            {/* Floating circles */}
+            <div className="absolute -top-4 -right-4 w-20 h-20 bg-red-500 rounded-full opacity-20"></div>
+            <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-blue-500 rounded-full opacity-20"></div>
           </div>
         </div>
       </div>
