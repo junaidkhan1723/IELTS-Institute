@@ -10,7 +10,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-br from-red-50 to-red-100 pt-30 pb-12 px-4">
+    <div className="min-h-screen flex items-center bg-gradient-to-br from-red-50 to-red-100 px-4 pt-25 sm:pt-0 pb-12 sm:pb-0">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}

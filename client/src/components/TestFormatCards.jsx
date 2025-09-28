@@ -4,7 +4,6 @@ import {
   PenTool,
   MessageCircle,
   ChevronRight,
-  Calendar,
 } from "lucide-react";
 
 const TestFormatCards = () => {
@@ -78,7 +77,7 @@ const TestFormatCards = () => {
   };
 
   return (
-    <div className="py-16 px-4 bg-white">
+    <div className="min-h-screen flex items-center py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -144,14 +143,6 @@ const TestFormatCards = () => {
               </div>
             );
           })}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 px-8 py-4 text-lg font-semibold text-white bg-red-600 rounded-full hover:bg-red-700 transition-colors cursor-pointer">
-            <Calendar className="w-5 h-5" />
-            Book Your IELTS Test Today
-          </button>
         </div>
       </div>
     </div>

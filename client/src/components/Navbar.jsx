@@ -6,6 +6,7 @@ import {
   UserCircle,
   Calendar,
   ChevronRight,
+  ChevronDown,
 } from "lucide-react";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
@@ -53,7 +54,10 @@ const Navbar = () => {
                     href="#"
                     className="text-gray-700 hover:text-red-600 transition-colors"
                   >
-                    {item}
+                    <span className="flex items-center">
+                      {item}
+                      <ChevronDown className="w-4 h-4 ms-1" />
+                    </span>
                   </a>
                 ))}
               </div>
