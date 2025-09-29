@@ -1,17 +1,16 @@
-
 # IELTS Pro
 
-A modern IELTS Institute homepage built with React, Tailwind CSS & Vite (white & red theme).  
+A modern IELTS Institute homepage built with React, Tailwind CSS & Vite (white & red theme).
 
 Contains: Navbar • Hero • 4 Test Formats • Student Testimonials • Footer.
 
 Inspired by other IELTS institute websites.
 
-
- Quick Setup  
+Quick Setup
 
 ```bash
 git clone https://github.com/junaidkhan1723/IELTS-Institute
 cd client
 npm install
-npm run dev 
+npm run dev
+```
